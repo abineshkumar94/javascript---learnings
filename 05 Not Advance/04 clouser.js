@@ -8,6 +8,7 @@
 
 // var value = init();  // so first init get called so your global execution context recite here then an executional context of the function init comes up and on top of that this say first name loads up. as soon as the first name actually completes his execution its poof its gone and then finally init poof its gone
 
+// value();
 // // we get nothing becoz this method dosent executing straightforwardly 
 
 // // so how can i run this thing //
