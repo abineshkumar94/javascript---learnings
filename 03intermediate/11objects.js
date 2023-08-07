@@ -12,7 +12,7 @@ let summa = {
  
 //     other way to accessing the object  //
 
-//console.log(summa["lastname"]) // here the firstname parameter should be in string "" otherwise you get a referenceerror //
+//console.log(summa["lastname"]) // here the lastname parameter should be in string "" otherwise you get a referenceerror //
 
 // you can also manipulate the value as well you get the access to it that means you can change it for example summa.logincount = 42 it will change the value or parameter
 
