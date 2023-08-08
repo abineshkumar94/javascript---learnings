@@ -21,4 +21,4 @@ sayhello();
 
 // self executing means nobody should call it and anonymous means it shouldnt have a name //
 
-// read about it search IIFE or the title//
+// read about it search IIFE or the title its important for interviews//   // watch hitesh's functional programming video //

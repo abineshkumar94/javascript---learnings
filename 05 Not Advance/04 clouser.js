@@ -24,6 +24,6 @@ console.log(5);
 
 // we can also do this thing //
 
-console.log(doaddition(5)(5));
+console.log(doaddition(5)(5));  // () () so this concept is known as currying //
 
 // please watch lexicalscoping and clouser video again //

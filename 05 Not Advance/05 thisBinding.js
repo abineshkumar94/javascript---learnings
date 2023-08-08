@@ -33,9 +33,9 @@ const Ak = {
 
 // and what bind does actually it binds the object but you can change this binding too //
 
-// Abinesh.getInfo.bind(Ak);  // now thats it now that this reference is not pointing towards Abinesh but Ak when you run only this the result is nothing because bind always gives you areffrence back now there are two ways of running this either the simpler way just add () this //
+ Abinesh.getInfo.bind(Ak);  // now thats it now that this reference is not pointing towards Abinesh but Ak when you run only this the result is nothing because bind always gives you areffrence back now there are two ways of running this either the simpler way just add () this //
 
-//Abinesh.getInfo.bind(Ak)(); // incase you dont want to runn like this you can also do this. store the reference and were gonna call this //
+ Abinesh.getInfo.bind(Ak)(); // incase you dont want to runn like this you can also do this. store the reference and were gonna call this //
 
 let Akinfo = Abinesh.getInfo.bind(Ak);
 Akinfo(); // both are like same code //
