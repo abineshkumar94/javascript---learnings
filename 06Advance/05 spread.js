@@ -15,7 +15,18 @@
 // //     return a + b;
 // // };
 
-// // console.log(5, 5);  // its a simple function //
+// // console.log(5, 5);  // its a simple function sumTwo(...args) {
+//     console.log(args);
+//     let sum = 0;
+//     for (const arg of args) {
+//         sum = sum + arg
+//     }
+//     return sum;
+// }
+
+// console.log(sumTwo(2, 3));
+
+// console.log(sumTwo(2, 3, 1, 5, 7));function //
 
 // // now the challenging part. let just say you have instead of having 5 + 5 you are having an array lets call it as (myA) and this is an array of 5 + 5 can you pass on this. i show this in below //
 
@@ -28,7 +39,18 @@
 
 // // and same exactly happens just there (myA) so when i said hay iwant to add myA it first tried to do it and once it says i dont know what is happening so it just printed them as it is //
 
-// // when your function expects individual value but youre value comes up as a pack or a bunch right now this is array but it come it can come up with variety of other bunches like maybe an object in that case if you dont want to change the function defenition all you can do is come up and put up these three dots ...myA and when we run this we get the answer back (10)
+// // when your function expects individuafunction sumTwo(...args) {
+//     console.log(args);
+//     let sum = 0;
+//     for (const arg of args) {
+//         sum = sum + arg
+//     }
+//     return sum;
+// }
+
+// console.log(sumTwo(2, 3));
+
+// console.log(sumTwo(2, 3, 1, 5, 7));l value but youre value comes up as a pack or a bunch right now this is array but it come it can come up with variety of other bunches like maybe an object in that case if you dont want to change the function defenition all you can do is come up and put up these three dots ...myA and when we run this we get the answer back (10)
 
 // function sumOne(a ,b) {
 //     return a + b;
