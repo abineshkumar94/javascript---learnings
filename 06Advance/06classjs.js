@@ -66,6 +66,13 @@ console.log(rock.courselist);                  // so what is the differents betw
 
 
 
+//.................inheritance in javascript...................//
+
+
+// watch the  inheritance video again //
+
+// read this its important we got to learn about (super) key word and (extends) keyword. learn about (static) keyword as well and other information about overriding some of the constructor overriding in inheritance //        
+
 
 
 
