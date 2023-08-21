@@ -21,7 +21,7 @@ const tres = () => {
 
 uno();
 tres(); // so what is call thisthing as second the result willbe i am one, i am three, i am two //
-dos();
+dos();// notice just we were creating these new object just like this we have done this in the past similar to this you can actually create a promise // you can keep your promise or you can just disregard your promise so same thing happens here as well inside this call back there we go either are gonna be resolving your promise are gonna get rejected from your promises. resolved means everything got good and whatever you wanted to bring from the web is giving you a good response and then there is reject as well that means hey something got wrong its sick its an error part its almost like a try-catch and then we got some bad thing happen. so how doesit work both of them actually a method resolve and reject so how does it work you can simply go ahead and say resolve(any msg here) so now our promise is getting reolved // 
 
 
 // read this line after reading 14th line // just a side note (settimeout) this is just a settimeout but it could have been loading out of the picture, some info from database, info from web Api. now notice if it would be a some information that you are getting from the database and since you havent got the information from the database is it ok to lode some of the other things which are dependent on setTimeout block of code. no i dont want to do that. so we need to look for that. that i dont want to execute rest of the things before settimeout takes it all of the time and execute it //
